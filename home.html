@@ -1,67 +1,189 @@
 <!doctype html>
-    <html lang="en">
+<html lang="en">
 
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-            integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-        <!-- CSS file -->
-        <link rel="stylesheet" href="css/home.css">
+    <!-- CSS file -->
+    <link rel="stylesheet" href="css/home.css">
 
-        <!-- Font Awesome Icon -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-            crossorigin="anonymous" />
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
 
-        <!-- Google Fonts For Titles -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <!-- Google Fonts For Titles -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Nosifer&display=swap"
+        rel="stylesheet">
 
-        <title>Spooky Wooky</title>
-    </head>
+    <!-- AnimateCS for Title Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <body>
-        <div class="bg-dark sticky-top">
-            <nav class="navbar navbar-expand-lg navbar-dark container">
-                <span class="navbar-brand"><i class="fas fa-skull" style="font-size: 50px"></i></span>
-                <span class="navbar-title h1" style="font-family: 'Creepster', cursive; color: #d62626">Spooky Wooky</span>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <span class="nav-link active">Home<span class="sr-only">(current)</span></span>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="products.html">Products</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="cart.html">Cart</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="checkout.html">Checkout</a>
-                        </li>
-                    </ul>
+    <title>Spooky Wooky</title>
+</head>
+
+<body>
+    <div class="bg-dark sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <span class="navbar-brand"><i class="fas fa-skull" style="font-size: 50px"></i></span>
+            <span class="navbar-title h1" style="font-family: 'Creepster', cursive; color: #d62626">Spooky Wooky</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <span class="nav-link active">Home<span class="sr-only">(current)</span></span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="checkout.html">Checkout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid bg-black min-vh-100">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="animate__animated animate__bounceInDown pt-4" style="font-family: 'Nosifer', cursive;">The
+                    Best Halloween Store On Staten Island</h1>
+                <hr class="my-4" />
+                <p class="h5">10% Discount Code - Limited Time Only</p>
+                <p class="h5 animate__animated animate__bounceInUp pt-1 pb-3"><mark><em>10OFF</em></mark></p>
+            </div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/hero-1.jpg" class="img-fluid" data-interval="200" alt="Our Halloween Shop">
                 </div>
-            </nav>
+                <div class="carousel-item">
+                    <img src="assets/hero-2.jpg" class="img-fluid" data-interval="3000" alt="Superhero Costumes">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/hero-3.jpg" class="img-fluid" data-interval="3000"
+                        alt="Scary Halloween Decorations">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="row">
+            <div class="col text-center pt-3 py-2">
+                <hr class="my-4" />
+                <span class="navbar-title h2" style="font-family: 'Nanum Gothic', sans-serif;">Browse Our
+                    Products</span>
+                <hr class="my-4" />
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+                <div class="card text-center" style="border-radius: 20%">
+                    <a class="nav-link" href="products.html">
+                        <img src="assets/girl-costume-1.jpg" class="card-img-top" style="border-radius: 20%"
+                            alt="Shop Girls Costumes">
+                        <div class="card-body">
+                            <h5 class="card-title">Girls Costumes</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-center" style="border-radius: 20%">
+                    <a class="nav-link" href="products.html">
+                        <img src="assets/boy-costume-1.jpg" class="card-img-top" style="border-radius: 20%"
+                            alt="Shop Boys Costumes">
+                        <div class="card-body">
+                            <h5 class="card-title">Boys Costumes</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-center" style="border-radius: 20%">
+                    <a class="nav-link" href="products.html">
+                        <img src="assets/toddler-costume-1.jpg" class="card-img-top" style="border-radius: 20%"
+                            alt="Toddler Costumes">
+                        <div class="card-body">
+                            <h5 class="card-title">Shop Toddler Costumes</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-center" style="border-radius: 20%">
+                    <a class="nav-link" href="products.html">
+                        <img src="assets/baby-costume-1.jpg" class="card-img-top" style="border-radius: 20%"
+                            alt="Shop Baby Costumes">
+                        <div class="card-body">
+                            <h5 class="card-title">Baby Costumes</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-center" style="border-radius: 20%">
+                    <a class="nav-link" href="products.html">
+                        <img src="assets/decoration-1.jpg" class="card-img-top" style="border-radius: 20%"
+                            alt="Shop Decorations">
+                        <div class="card-body">
+                            <h5 class="card-title">Decorations</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-center" style="border-radius: 20%">
+                    <a class="nav-link" href="products.html">
+                        <img src="assets/adult-costume-1.jpg" class="card-img-top" style="border-radius: 20%"
+                            alt="Shop Adult Costumes">
+                        <div class="card-body">
+                            <h5 class="card-title">Adult Costumes</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
 
         <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+            </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-            crossorigin="anonymous"></script>
-    </body>
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+            </script>
+    </div>
+</body>
+
 </html>
